@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4 fixed w-full z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-semibold">My Portfolio</a>
+            <div class="hidden md:flex space-x-4">
+                <a href="#about" class="hover:text-gray-300">About</a>
+                <a href="#skills" class="hover:text-gray-300">Skills</a>
+                <a href="#projects" class="hover:text-gray-300">Projects</a>
+                <a href=mailto:agentavery@sample.com?subject="Hare krishna" class="hover:text-gray-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--  the Hero Section -->
+    <header class="bg-cover bg-center h-screen flex items-center relative"
+        style="background-image: url('1111.jpg')">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto text-center relative z-20">
+            
+            <h1 class="text-4xl md:text-6xl font-semibold text-white mb-4" id="animated-text">I am <span id="typed-text"></span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8">Web Developer | E&TC Engineer </p>
+            <a href=mailto:agentavery@sample.com?subject="Hare Krishna"
+                class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-700">Contact Me</a>
+        </div>
+    </header>
+
+    <!-- About myself -->
+    <section id="about" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">About Me</h2>
+            <p class="text-gray-700 leading-relaxed max-w-2xl mx-auto">My Name is Aāyushkumar Yadav, At present I am a
+                Second Year Electronics and Telecommunication Engineering Student at
+                Thakur College of Engineering and Technology</p>
+        </div>
+    </section>
+
+    <!-- my Skills Section -->
+    <section id="skills" class="bg-gray-200 py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill Card (Repeat for each skill) -->
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                    <p class="text-gray-600">HTML, CSS, JavaScript </p>
+                </div>
+             
+
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Engineering</h3>
+                    <p class="text-gray-600">Critical thinking , Problem solving</p>
+                </div>
+                <!-- We can Repeat the above div for each skill -->
+
+                <!-- my Skill Card  -->
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Other skills</h3>
+                    <p class="text-gray-600">Reading, Article writing</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--  my Projects Section -->
+    <section id="projects" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Sample Project Cards -->
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <img src="https://source.unsplash.com/500x300/?shopping" alt="Project Image"
+                        class="w-full h-32 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Ecommerce Shopping Landscape</h3>
+                    <p class="text-gray-600">Simple Shopping Website with price tag and cart.</p>
+                    <a href="ecommerce.html" class="text-blue-500 mt-2 inline-block">View Project</a>
+                </div>
+
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <img src="https://source.unsplash.com/500x300/?Calculator" alt="Project Image"
+                        class="w-full h-32 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Age Calculator</h3>
+                    <p class="text-gray-600">Simple age calculator using JavaScript.</p>
+                    <a href="age_calculator.html" class="text-blue-500 mt-2 inline-block">View Project</a>
+                </div>
+
+
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <img src="https://source.unsplash.com/500x300/?cars" alt="Project Image"
+                        class="w-full h-32 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2"> Tic Tac Toe</h3>
+                    <p class="text-gray-600">Tic tac toe game using JavaScript.</p>
+                    <a href="tictactoe.html" class="text-blue-500 mt-2 inline-block">View Project</a>
+                </div>
+
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <img src="https://source.unsplash.com/500x300/?nature" alt="Project Image"
+                        class="w-full h-32 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2"> Todo List</h3>
+                    <p class="text-gray-600">Simple Todo list using JavaScript.</p>
+                    <a href="todolist.html" class="text-blue-500 mt-2 inline-block">View Project</a>
+                </div>
+
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <img src="https://source.unsplash.com/500x300/?quotes" alt="Project Image"
+                        class="w-full h-32 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Random quotes Generator</h3>
+                    <p class="text-gray-600">Random quotes Generator .</p>
+                    <a href="randomquote.html" class="text-blue-500 mt-2 inline-block">View Project</a>
+                </div>
+
+                <div class="bg-white p-4 rounded-md shadow-md">
+                    <img src="https://source.unsplash.com/500x300/?doctor" alt="Project Image"
+                        class="w-full h-32 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Simple Landing page </h3>
+                    <p class="text-gray-600">Landing Website Page.</p>
+                    <a href="drsuthar.html" class="text-blue-500 mt-2 inline-block">View Project</a>
+                </div>
+
+
+
+
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Contact Me</h2>
+            <p class="text-gray-500 mb-8">Let's connect! Feel free to reach out to me through the following
+                channels.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="text-3xl hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-3xl hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-3xl hover:text-gray-300"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-600 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 AayushKumar Yadav. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+    <script>
+        const textToBeTyped = "AayushKumar  Yadav";
+        let index = 0;
+
+       
+        function type() {
+            if (index < textToBeTyped.length) {
+                document.getElementById('typed-text').innerText += textToBeTyped.charAt(index);
+                index++;
+                setTimeout(type, 60); 
+            }
+        }
+
+    
+        window.onload = type;
+</script>
+    
+</body>
+
+</html>
